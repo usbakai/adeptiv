@@ -1,0 +1,559 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* menu */
+.menu {
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+}
+.icon {
+position: relative;
+padding-left: 205px;
+}
+.text a{
+ display: flex;
+text-decoration: none;
+padding-left: 3rem;
+color: rgb(0, 0, 0);
+font-family: 'Montserrat', sans-serif;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 22rem;
+}
+/* ohne */
+.ohne1 {
+background-image: url('../img/11111111.png');
+background-size: cover;
+height: 395px;
+}
+.ohne-title {
+    padding-top: 95px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.ohne--1 {
+    position: absolute;
+height: 2px;
+left: 45.74%;
+right: 45.74%;
+top: 370px;
+
+background-color: aliceblue;
+}
+.ohne--1-text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Vollkorn', serif;
+    color: aliceblue;
+    font-size: 15px;
+    padding-top: 45px;
+}
+
+/* zwei */
+.zwei {
+    background-color: #FEFEC9;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zwei-text h1{
+   font-size: 25px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    color:  #47474F;
+
+}
+.btn {
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 19px;
+cursor: pointer;
+}
+.btn button {
+    background-color: #FEFEC9;
+    padding: 12px 19px;
+    font-family: 'Vollkorn', serif;
+    cursor: pointer;
+    transition: 1s ;
+}
+.btn button:hover {
+    background-color: cadetblue;
+    color: darkslategrey;
+    transform: rotate(1 1 3);
+    transition: 1s ;
+}
+/* how */
+.How {
+height: 700px;
+justify-content: center;
+text-align: center;
+position: relative;
+margin-top: 100px;
+font-family: 'Montserrat', sans-serif;
+}
+.how {
+font-size: 23px;
+
+   text-align: center; 
+   justify-content: center;
+   align-items: center;
+}
+.photo-menu {
+    padding-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.photo-title h1 {
+   font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
+}
+.photo-title p{
+    font-size: 15px;
+    font-family: 'Vollkorn', serif;
+}
+
+/* Recent */
+.Recent {
+    background-color: #F5F5F5;
+    height: 1600px;
+    justify-content: center;
+    text-align: center;
+  padding: 79px 0;
+}
+.Recent h2 {
+    padding: 50px 0;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+.recen {
+    display: flex;
+   justify-content: center;
+   gap: 3rem;
+   padding: 30px 0;
+}
+.recent-photo {
+    background-color: #ffffff;
+   width: 300px;
+   height: 400px;
+}
+.recent-text h1{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.recent-text p{
+    font-size: 14px;
+    font-family: 'Vollkorn', serif;
+}
+
+/* our */
+
+.our {
+    background-color: #ffffff;
+    height: 511px;
+    padding: 79px 0;
+}
+.our-text h4{
+    margin: 0;
+    text-align: center;
+    padding: 40px 0 50px 0;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.team-cla {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.team {
+    text-align: center;
+}
+
+.team-icon {
+ margin: 0 10px;
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+}
+.team h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.team h5 {
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+}
+
+.love {
+    background-color: #F5F5F5;
+    height: 511px;
+    
+}
+.lov {
+    text-align: center;
+    padding: 70px 0;
+}
+.lov-photo {
+    padding: 20px 0;
+}
+.juuli {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.julius {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.julius h1{
+text-align: center;
+font-family: 'Vollkorn', serif;
+font-size: 27px;
+font-style: normal;
+}
+.julius h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.hhr {
+    padding: 0;
+    margin: 25px -20px;
+}
+
+/* touch */
+
+.touch {
+    background-image: url('../img/touch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.touch-text h1{
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 79px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+.tttr {
+   width: 111px;
+   margin-top: -39px;
+}
+
+.meet-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+padding: 50px 0;
+}
+
+.meet {
+    text-align: center;
+    align-items: center;
+}
+.meet h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+}
+.meet-text h4{
+    margin: 1px;
+    font-family: 'Vollkorn', serif;
+font-size: 17px;
+}
+.meet-text h3{
+    margin: 24px 0 -3px 0;
+    font-family: 'Vollkorn', serif;
+    font-size: 17px;
+}
+.meeet-icon{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.meet-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Vollkorn', serif;
+    font-size: 17px;
+}
+.meet-icon h4{
+    margin: 0;
+    line-height: 2rem;
+    
+}
+
+.send {
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    padding: 40px 0;
+}
+
+
+.namo {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.send {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.send input {
+    padding: 18px;
+    padding-right: 470px;
+    border: none;
+    background-color: #FFFFFF2E;
+    color: white;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;  
+}
+.bir input {
+    padding-bottom: 88px;
+    background-color: #FFFFFF33;
+}
+.nol input {
+    background-color: #FFFFFF33;
+}
+
+.send button{
+    padding: 20px 60px;
+    margin-top: 40px;
+    background: transparent;
+    color:  #7EC4BD;
+    font-family: 'Vollkorn';
+    border: none;
+    border: 1px solid   #7EC4BD;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.send button:hover {
+    background-color: cadetblue;
+    color: darkslategray;
+    transform: rotate(1 2 3);
+    transition: 0.5s;
+}
+.igm {
+    margin-top: 40px;
+}
+.igm-title {
+    margin-top: 30px;
+    font-family: 'Vollkorn';
+    color: #47474fb7;
+}
+
+@media (min-width: 240px) and (max-width: 570px) {
+.ohne {
+    display: block;
+}
+
+.menu {
+    display: block;
+  height: 180px;
+  display: flex;
+}
+.icon {
+    width: 50px;
+    padding-left: 0;
+}
+.ohne--1 {
+    height: 0;
+}
+.ohne-title {
+    font-size: 12px;
+}
+.text {
+    display: block;
+    padding: 0;
+  padding-left: 174px;
+}
+.text a{
+    padding: 0;
+}
+
+
+
+.zwei-text h1 {
+    font-size: 15px;
+}
+
+
+
+.How {
+    height: 1350px;
+}
+.photo-menu {
+    display: block;
+    padding-top: 0;
+}
+.recen{
+    display: block;
+    padding-left: 45px;
+}
+
+
+
+.Recent {
+    padding: 0;
+    height: 3900px;
+    width: 400px;
+}
+.Recent h2 {
+
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+
+.our {
+    height: 1500px;
+}
+
+
+.love {
+    height: 700px;
+}
+.juuli {
+    display: block;
+}
+.julius h1 {
+    font-size: 14px;
+}
+.hhr {
+    margin: 25px 89px;
+}
+
+
+
+.touch {
+    height: 1100px;
+}
+.touch-text h1 {
+    font-size: 24px;
+}
+.meet {
+    padding: 25px 0;
+}
+.meet h1{
+font-size: 15px;
+}
+.meeet-icon {
+    padding-left: 130px;
+}
+.meet-text h4 {
+    font-size: 14px;
+}
+
+.meet-menu {
+    display: block;
+}
+
+.igm-title {
+    font-size: 15px;
+}
+.send input {
+    padding-right: 0;
+}
+
+.team-cla {
+    display: block;
+}
+}
+
+@media  (min-width: 570px) and (max-width: 750px) {
+
+
+.ohne {
+    display: block;
+}
+
+.icon {
+    padding: 35px;
+   width: 125px;
+}
+.text {
+    padding-left: 0;
+
+}
+.How {
+    height: 1400px;
+}
+.zwei-text h1 {
+    font-size: 15px;
+}
+.photo-menu {
+    display: block;
+}
+
+
+
+.Recent {
+    height: 4000px;
+    padding: 79px 170px;
+}
+.recen {
+    display: block;
+}
+
+
+
+.our {
+    height: 1700px;
+}
+.team-cla {
+    display: block;
+}
+.team {
+    padding: 20px 0;
+}
+
+
+
+
+.love {
+    height: 700px;
+}
+.hhr {
+    margin: 15px -140px;
+}
+
+
+.meet-menu {
+    gap: 2rem;
+}
+
+.send input {
+    padding-right: 170px;
+}
+}
